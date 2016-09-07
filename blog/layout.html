@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <link rel="canonical" href="{{ canonical_url }}">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+     <script type="application/ld+json">
+    {{{ amp_meta_data }}}
+    </script>
+    <style amp-custom>
+    {{{ amp_css }}}
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script><script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="wrapper"><a href="/" class="blog-logo">
+          <amp-img src="https://www.lexoo.co.uk/blog/assets/images/lexoo.png" width="104px" height="19px"></amp-img></a>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>{{ title }}</h1>
+      <span class="author"><i class="fa fa-user"></i>{{ author }}</span>
+      <span class="date"><i class="fa fa-calendar-o"></i>{{ published_date }}</span>
+      <!-- BEGIN POST  -->
+      {{{ content }}}
+      <!-- END POST  -->
+  </div>
+  <footer>
+    <h4><span>About</span></h4>
+    <div class="content">
+      <p>Lexoo Limited is registered and incorporated in England and Wales, company registration number 08900002.</p>
+      <p>Unit 16, Britannia Building, 12 Ebenezer Street, London, N1 7RP</p>
+      <p>support@lexoo.co.uk</p>
+      <br>
+      <p>
+        © 2016 <a href="https://www.lexoo.co.uk/blog">Lexoo</a>. All rights reserved
+      </p>
+    </div>
+  </footer>
+  <amp-analytics type="googleanalytics" id="analytics-1">
+        <script type="application/json">
+        {
+          "vars": {
+            "account": "UA-49222714-4"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            }
+          }
+        }
+        </script>
+      </amp-analytics>
+  </body>
+</html>
