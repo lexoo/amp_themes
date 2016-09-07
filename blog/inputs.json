@@ -1,0 +1,9 @@
+{
+  "title": "Test title",
+  "canonical_url": "example.com/test/",
+  "amp_meta_data": "Test meta data",
+  "amp_css": "amp.css",
+  "author": "Chris O'Sullivan",
+  "published_date": "1 January 2016",
+  "content": "content.html"
+}

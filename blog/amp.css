@@ -78,3 +78,21 @@ h4 span:before {
   border-bottom: 0;
   border-left: 0;
 }
+
+.lexoo-ad .request-a-quote {
+  background: #ffb22a;
+  color: #fff;
+  border: 2px solid #ffb22a;
+  box-sizing: border-box;
+  display: block;
+  margin: 15px auto 0 auto;
+  height: 30px;
+  width: 60%;
+  min-width: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 1em 1.8em 2em 1.8em;
+  font-size: 14px;
+  line-height: 14px;
+}
