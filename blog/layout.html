@@ -45,20 +45,15 @@
       </p>
     </div>
   </footer>
-  <amp-analytics type="googleanalytics" id="analytics-1">
-        <script type="application/json">
-        {
-          "vars": {
-            "account": "UA-49222714-4"
-          },
-          "triggers": {
-            "trackPageview": {
-              "on": "visible",
-              "request": "pageview"
-            }
-          }
-        }
-        </script>
-      </amp-analytics>
+<amp-analytics type="segment">
+<script type="application/json">
+{
+  "vars": {
+    "writeKey": "2xfax1003d",
+    "name": "{{ amp_url }}"
+  }
+}
+</script>
+</amp-analytics>
   </body>
 </html>
